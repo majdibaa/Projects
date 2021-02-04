@@ -1,0 +1,55 @@
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+Jeu du Taquin par Majdi BAAZIZ et Thomas QUERNEC réalisé en 1ère année de DUT
+Informatique à l'IUT de Fontainbleau
+
+2017/2018
+
+
+Prérequis :
+
+Avoir une machine Linux.
+
+1) 
+
+Installez la bibliothèque graphique, ouvrir un terminal et exécutez ces commandes
+
+********************************************************************************
+
+wget http://www.iut-fbleau.fr/sitebp/doc/doc_bib_graphique/bibliotheque-graphique-iut-1.1.tar.gz
+
+********************************************************************************
+
+Décompressez l'archive puis ouvrez un terminal dans le dossier décompressé. Exécutez
+ensuite ces commandes.
+
+********************************************************************************
+
+./configure
+
+make
+
+sudo make install
+
+********************************************************************************
+
+2)
+
+Maintenant que la bibliothèque graphique est installée, repartez dans le dossier du jeu,
+accédez au dossier "Sources" puis ouvrez un terminal dans ce répertoire et exécuter la commande ci-dessous
+
+********************************************************************************
+
+make
+
+********************************************************************************
+
+
+Le jeu est maintenant prêt !!
+
+Pour lancer le jeu, il faut lancer l'exécutable s'appelant "Projet".
+
+Amusez-vous bien
